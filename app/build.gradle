@@ -6,16 +6,20 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.flyinmoon"
+        applicationId "com.example.flyingmoon"
         minSdk 29
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildFeatures {
+        viewBinding = true
     }
 
     buildTypes {
@@ -59,6 +63,7 @@ dependencies {
     implementation 'io.grpc:protoc-gen-grpc-kotlin:1.3.0'
     implementation 'io.grpc:grpc-kotlin-stub:1.3.0'
     implementation 'com.google.protobuf:protobuf-kotlin:3.21.12'
+    implementation 'androidx.drawerlayout:drawerlayout:1.2.0'
 
 
     testImplementation 'junit:junit:4.13.2'

@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">FlyinMoon</string>
+    <string name="app_name">FlyingMoon</string>
+    <string name="guiding">Guiding</string>
+    <string name="imaging">Imaging</string>
 </resources>

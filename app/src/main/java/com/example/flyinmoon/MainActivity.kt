@@ -13,12 +13,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val channel = ManagedChannelBuilder.forAddress("192.168.1.13", 8000).usePlaintext().build()
-        val stub = PolarAlignGrpcKt.PolarAlignCoroutineStub(channel)
-        val request = PolarAlignOuterClass.Request.newBuilder().build()
+
+        //val channel = ManagedChannelBuilder.forAddress("192.168.1.13", 8000).usePlaintext().build()
+       // val stub = PolarAlignGrpcKt.PolarAlignCoroutineStub(channel)
+       // val request = PolarAlignOuterClass.Request.newBuilder().build()
         runBlocking {
             print("-------------- start")
-            stub.startPolarAlign(request).collect { value -> println("collected $value") }
+           // stub.startPolarAlign(request).collect { value -> println("collected $value") }
             println("--------------- done")
         }
     }
