@@ -14,6 +14,7 @@ message PolarError {
 }
 
 message Request{
+    bool stopped = 1;
 
 }
 

@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">FlyingMoon</string>
-    <string name="guiding">Guiding</string>
     <string name="imaging">Imaging</string>
+    <string name="guiding">Guiding</string>
+    <string name="start_polar_align">Start polar align</string>
+
 </resources>

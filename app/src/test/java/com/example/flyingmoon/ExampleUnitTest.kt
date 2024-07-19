@@ -1,4 +1,4 @@
-package com.example.flyinmoon
+package com.example.flyingmoon
 
 import org.junit.Test
 

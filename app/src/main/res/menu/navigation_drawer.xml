@@ -3,9 +3,11 @@
     <item
         android:id="@+id/imaging"
         android:title="@string/imaging"
-        android:checkable="true"/>
+        android:checkable="true"
+        android:onClick="loadImagingFragment"/>
     <item
-        android:title="@string/guiding"
         android:id="@+id/guiding"
-        android:checkable="true"/>
+        android:title="@string/guiding"
+        android:checkable="true"
+        android:onClick="loadGuidingFragment"/>
 </menu>
